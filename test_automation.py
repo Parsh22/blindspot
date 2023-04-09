@@ -20,7 +20,7 @@ def browser_call():
     driver.execute_script("window.open('about:blank','tab2');")
 
     # Navigate to the website in the new tab
-    link = 'https://videosdk.live/prebuilt/demo'
+    link = ''
     driver.switch_to.window("tab2")
     driver.get(link)
 
