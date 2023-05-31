@@ -6,6 +6,10 @@ from circuit import *
 
 
 def authenticate(frame):
+
+
+
+
     try:
         with open('face_data.dat', 'rb') as f:
             known_face_data = pickle.load(f)
